@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGODB_URI='mongodb+srv://Adheil:Ahana123@cluster0.rblysmw.mongodb.net/';
+const MONGODB_URI='mongodb+srv://username:password@cluster0.rblysmw.mongodb.net/';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI);
